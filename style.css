@@ -49,11 +49,11 @@
     box-shadow: 13px 13px #092b81;
 }
 
-@media(max-width:300px) {
+@media(max-width:200px) {
     #heading1 {
         margin-top: 5px;
         height: 1.6em;
-        width: 3em;
+        width: 1.5em;
         background-color: aliceblue;
         text-align: center;
         display: flex;
@@ -68,12 +68,12 @@
 .inside1 {
     width: 60vw;
     height: 20vh;
-    /* background-color: azure; */
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 28px;
 }
+
 
 /* inside1 we have two parts one is text part ="first-box" and another part is="ADD-btn" part  */
 .first-box {
@@ -108,6 +108,29 @@ input::placeholder {
     box-shadow: 5px 5px 4px blue;
 }
 
+@media(max-width:200px) {
+    .first-box {
+        width: 300px;
+        height: 15px;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-top: 15px;
+        margin-left: 10em;
+    }
+
+    .ADD-btn {
+        height: 30px;
+        width: 40px;
+        font-size: medium;
+        font-weight: 700;
+        border-radius: 5px;
+        background-color: rgb(61, 206, 61);
+        cursor: pointer;
+        box-shadow: 2px 2px 2px blue;
+    }
+}
+
 #heading2 {
     margin-top: 30px;
     height: 2em;
@@ -119,6 +142,21 @@ input::placeholder {
     align-items: center;
     border-radius: 10px;
     box-shadow: 13px 13px #0a266d;
+}
+
+@media (max-width:200px) {
+    #heading2 {
+        margin-top: 30px;
+        height: 1.5em;
+        width: 1.6em;
+        background-color: aliceblue;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 5px 5px #0a266d;
+    }
 }
 
 /* The storing part after insert a work */
