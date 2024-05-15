@@ -28,6 +28,14 @@
     align-items: center;
 }
 
+@media(min-width:300px) {
+    .inside-container {
+        width: 90vw;
+        height: 90vh;
+        background: linear-gradient(to top, #122033 0%, #1c54e1 100%);
+    }
+}
+
 #heading1 {
     margin-top: 10px;
     height: 2em;
@@ -39,6 +47,21 @@
     align-items: center;
     border-radius: 10px;
     box-shadow: 13px 13px #092b81;
+}
+
+@media(max-width:400px) {
+    #heading1 {
+        margin-top: 5px;
+        height: 1.6em;
+        width: 3em;
+        background-color: aliceblue;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 5px 5px #092b81;
+    }
 }
 
 /* inside container will divide into many parts ,first part is inside1 */
